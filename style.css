@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("fonts/Poppins-Medium.ttf");
+}
+
+.navbar {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(182, 174, 174);
+ box-shadow: rgb(216, 216, 216);
+}
+.li {
+  display: inline-flex;
+}
+
+.navbar {
+  display: flex;
+}
+
+li {
+  display: flex;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+button {
+  background: rgb(95, 92, 92);
+  padding: 10px 10px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+li:hover {
+  background-color: rgb(122, 115, 115);
+  border-radius: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.icon {
+  color: black;
+  font-size: 20px;
+  margin: 7px;
+}
+i {
+  color: rgb(0, 0, 0);
+}
+.pakistan {
+  display: flex;
+  justify-content: space-around;
+}
+.pakistan > div {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+div > i {
+  margin-left: 30px;
+}
+.pakistan > div {
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+.pakistan > div:hover {
+  background-color: black;
+  cursor: pointer;
+  border-color: black;
+  color: #ffffff;
+}
+.pakistan > div:hover > i {
+  color: white;
+
+}
+.glass{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  height: 44px !important;
+  width: 520px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+ 
+}
+input{
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  height: 40px;
+  border-radius: 50px;
+  width: 400px;
+  width: 500px;
+  
+}
+
+
+.glass input{
+  border: none;
+  outline: none;
+  
+}
+
+.button{
+  margin-right: 26px;
+
+}
+h1{
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+p{
+  margin-left: 20px;
+  
+}
+.card{
+  display: inline-block;
+  margin-left: 30px;
+  
+}
+.contenar{
+position: relative;
+
+}
+
+.card>img{
+  position: absolute;
+  
+}
+div.Riviera{
+  position: absolute;
+  top: 220px;
+  color: #ffffff;
+  
+}
+.contenar1{
+  display: flex;
+  
+}
+.karachi{
+  margin-left: 30px;
+  position: relative;
+  
+}
+
+.karachi>img {
+  position: absolute;
+  display: inline-block; 
+}
+
+div.heart>i  {
+  position: absolute;
+  top: 20px;
+  margin-left: 230px;
+color: white;
+
+}
+h4{
+  text-decoration: underline;
+  
+}
+/*  
+div.beige {
+  background-color:bisque;
+  height: 200px;
+  width: 500px;
+  display: inline-block;
+  margin: 20px;
+}
+div.img{
+display: inline-block;
+}
+style{
+  display: flex;
+} */
